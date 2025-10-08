@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "noshieldglint",
+	"version": "${version}",
+	"name": "NoShieldGlint",
+	"description": "Remove enchanted glint from shields when in hand",
+	"authors": [
+		"ThePotatoArchivist"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/no-shield-glint",
+		"sources": "https://github.com/ThePotatoArchivist/NoShieldGlint"
+	},
+	"license": "MIT-0",
+	"icon": "assets/noshieldglint/icon.png",
+	"environment": "client",
+	"entrypoints": {
+	},
+	"mixins": [
+		"noshieldglint.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21",
+		"java": ">=21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
