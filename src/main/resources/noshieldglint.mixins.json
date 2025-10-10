@@ -3,7 +3,7 @@
 	"package": "archives.tater.noshieldglint.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
-      "BuiltinModelItemRendererMixin"
+      "ShieldModelRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
